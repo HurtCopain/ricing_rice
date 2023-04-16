@@ -35,18 +35,8 @@
   <project path="external/tigervnc" name="RisingTechOSS/android_external_tigervnc" groups="pdk" revision="thirteen" />
   <project path="external/zlib" name="RisingTechOSS/android_external_zlib-ng" groups="pdk" revision="thirteen" />
 
-  <!-- External (Chromiuim) -->
-  <project path="external/chromium-webview/prebuilt/arm" name="RisingTechOSS/android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" revision="backup/main_20230314" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="RisingTechOSS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="backup/main_20230314" />
-  <project path="external/chromium-webview/prebuilt/x86" name="RisingTechOSS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="backup/main_20230314" />
-
    <!-- Hardware (AOSP) -->
   <project path="hardware/interfaces" name="RisingTechOSS/android_hardware_interfaces" groups="pdk" revision="thirteen" />
-
-   <!-- Hardware (Google) -->
-  <project path="hardware/google/camera" name="RisingTechOSS/android_hardware_google_camera" groups="pdk" revision="thirteen" />
-  <project path="hardware/google/pixel" name="RisingTechOSS/android_hardware_google_pixel" groups="generic_fs,pixel" revision="thirteen"/>
-  <project path="hardware/google/pixel-sepolicy" name="RisingTechOSS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" revision="thirteen" />
   
    <!-- Hardware (QCOM) -->
   <project path="hardware/qcom-caf/wlan" name="RisingTechOSS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="thirteen" />
@@ -89,7 +79,6 @@
 
   <!-- Vendor -->
   <project path="vendor/addons" name="RisingTechOSS/android_vendor_addons" revision="thirteen" />
-  <project path="vendor/gms" name="minaripenguin/vendor_google_pixel" remote="gitlab" revision="thirteen" clone-depth="1" />
   <project path="vendor/lineage" name="RisingTechOSS/android_vendor_rising" revision="thirteen" />
   <project path="vendor/support" name="RisingTechOSS/android_vendor_support" revision="thirteen" />
 
